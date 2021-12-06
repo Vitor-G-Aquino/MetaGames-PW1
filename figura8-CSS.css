@@ -1,0 +1,171 @@
+
+/*PARTE UNIVERSAL - INICIO*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.logo{
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+} 
+
+.icon{
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+/*PARTE UNIVERSAL - FIM*/
+
+/*PARTE CABEÇALHO - INICIO*/
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom-color: #A225F5;  
+    border-bottom-style: solid;  
+    border-bottom-width: 10px;
+}
+
+#cabecalho > .logo{
+    margin-left: 30px;
+}
+
+#pesquisa{
+    width: 500px;
+}
+
+#c_right{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-right: 30px;
+}
+/*PARTE CABEÇALHO - FIM*/
+.master{
+    display: flex;
+    width: 2000px;
+    height: 1300px;
+    }
+    /*parte da alteração*/
+    
+    .alteração{
+    width: 300px; 
+    height: 500px; 
+    border: solid 2px black;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: lightgray;
+    }
+    
+    #titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-left: 60px;
+    }
+    /*alt texto*/
+    #minor{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 60px;
+    line-height: 40px;
+    color: black; 
+    }
+    
+    .altp2{
+        border-top: solid 1px black;
+        margin-top: 30px;
+        height: 280px;
+             
+    }
+ /*cadastrar*/
+#a1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*PARTE UNIVERSAL - INICIO*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.logo{
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+} 
+
+.icon{
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+/*PARTE UNIVERSAL - FIM*/
+
+/*PARTE RODAPÉ - INICIO*/
+.rod_link{
+    text-decoration: none;
+    color: purple;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-top-color: #A225F5;  
+    border-top-style: solid;  
+    border-top-width: 10px;
+}
+
+#rod_center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#redes_sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#rod_h2{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*PARTE RODAPÉ - FIM*/

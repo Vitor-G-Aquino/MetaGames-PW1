@@ -1,0 +1,141 @@
+/*PARTE UNIVERSAL - INICIO*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.logo{
+    color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+} 
+
+.icon{
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+/*PARTE UNIVERSAL - FIM*/
+
+/*PARTE CABEÇALHO - INICIO*/
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom-color: #A225F5;  
+    border-bottom-style: solid;  
+    border-bottom-width: 10px;
+}
+
+#cabecalho > .logo{
+    margin-left: 30px;
+}
+
+#pesquisa{
+    width: 500px;
+}
+
+#c_right{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin-right: 30px;
+}
+/*PARTE CABEÇALHO - FIM*/
+
+/*PARTE FIGURA 2 - FIM*/
+#ruler{
+    display: flex;
+    justify-content: flex-start ;
+}
+
+#box1{
+    height: 600px;
+    width: 450px;
+    margin: 30px;
+    padding: 10px;
+    background-color: lightgray;
+    border-width: 5px;
+    border-style: double;
+    border-color: blueviolet;
+}
+
+.box2{
+    width: 300px;
+    height: 400px;
+    margin: 80px 30px 30px 30px;
+    background-color: whitesmoke;
+    border:2px black double;
+}
+
+#title{
+    margin-left: 30px;
+}
+
+#box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgray;
+}
+
+#b_buy{
+    width: 100px;
+    height: 50px;
+}
+
+#description{
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+}
+/*PARTE FIGURA 2 - FIM*/
+
+/*PARTE RODAPÉ - INICIO*/
+.rod_link{
+    text-decoration: none;
+    color: purple;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#rodape{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-top-color: #A225F5;  
+    border-top-style: solid;  
+    border-top-width: 10px;
+}
+
+#rod_center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#redes_sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#rod_h2{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*PARTE RODAPÉ - FIM*/
